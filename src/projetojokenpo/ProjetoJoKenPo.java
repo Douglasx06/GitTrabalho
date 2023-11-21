@@ -5,6 +5,8 @@
  */
 package projetojokenpo;
 
+import javax.swing.JFrame;
+
 
 //E O INTER!!! 
 //FEITO!!
@@ -16,7 +18,11 @@ public class ProjetoJoKenPo {
 
   
     public static void main(String[] args) {
-        // TODO code application logic here
+        Janela J = new Janela();
+        
+        J.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        J.setVisible(true);
+        J.setSize(600,500);
     }
     
 }

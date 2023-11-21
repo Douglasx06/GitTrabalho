@@ -130,15 +130,15 @@ public class Janela extends javax.swing.JFrame {
         }
         
         
-        if (JogadaP > JogadaM){
+        if (JogadaM == 1){
            JOptionPane.showMessageDialog(null,"Jogada Maquina: " +  JogadaMS 
-                                        + "\n "+"VOCÊ GANHOU!!");      
+                                        + "\n "+"A MAQUINA GANHOU!!!");      
         }else if(JogadaP == JogadaM){
             JOptionPane.showMessageDialog(null,"Jogada Maquina: " +  JogadaMS
                                         + "\n " + "EMPATE!!!");
         }else{
             JOptionPane.showMessageDialog(null,"Jogada Maquina: " +  JogadaMS
-                                        + "\n " +  "A MAQUINA GANHOU!!!");
+                                        + "\n " +  "VOCÊ GANHOU!!!");
 
         }
     }//GEN-LAST:event_btTesouraActionPerformed
@@ -162,7 +162,7 @@ public class Janela extends javax.swing.JFrame {
         }
         
         
-        if (JogadaP > JogadaM){
+        if (JogadaM == 1){
            JOptionPane.showMessageDialog(null,"Jogada Maquina: " +  JogadaMS 
                                         + "\n "+"VOCÊ GANHOU!!");      
         }else if(JogadaP == JogadaM){
@@ -194,15 +194,15 @@ public class Janela extends javax.swing.JFrame {
         }
         
         
-        if (JogadaP > JogadaM){
+        if (JogadaM == 1){
            JOptionPane.showMessageDialog(null,"Jogada Maquina: " +  JogadaMS 
-                                        + "\n "+"VOCÊ GANHOU!!");      
-        }else if(JogadaP == JogadaM){
+                                        + "\n " + "EMPATE!!!");      
+        }else if(JogadaM == 2){
             JOptionPane.showMessageDialog(null,"Jogada Maquina: " +  JogadaMS
-                                        + "\n " + "EMPATE!!!");
+                                        + "\n " + "A MAQUINA GANHOU!!!");
         }else{
             JOptionPane.showMessageDialog(null,"Jogada Maquina: " +  JogadaMS
-                                        + "\n " +  "A MAQUINA GANHOU!!!");
+                                        + "\n " +  "VOCÊ GENHOU!!!");
 
         }
     }//GEN-LAST:event_btPedraActionPerformed

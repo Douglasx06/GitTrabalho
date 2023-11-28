@@ -224,6 +224,8 @@ public class Janela extends javax.swing.JFrame {
         }else{
             JOptionPane.showMessageDialog(null,"Jogada Maquina: " +  JogadaMS
                                         + "\n " +  "VOCÊ GANHOU!!!");
+            
+
 
         }
     }//GEN-LAST:event_btPedraActionPerformed

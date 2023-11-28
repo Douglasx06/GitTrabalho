@@ -264,6 +264,7 @@ public class Janela extends javax.swing.JFrame {
             }
         });
     }
+    //OPA
     
     int JogadaM;
     int JogadaP;
